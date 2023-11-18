@@ -61,7 +61,6 @@
 </script>
 
 <div class="w-full">
-    <h1>f</h1>
     <div class="flex justify-center">
         {#each answersValue as answer}
         <QuestionProgressCircle isCorrect={answer.isCorrect}/>
